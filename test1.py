@@ -8,7 +8,7 @@ import os
 ENDPOINT = "http://localhost:8000/v1/chat/completions"
 MODEL = "lightonai/LightOnOCR-2-1B"
 
-PDF_FILE = "test3.pdf"
+PDF_FILE = "test2.pdf"
 
 def main():
     print("test-lightocr.py - vLLM API")

@@ -1,8 +1,8 @@
 # OCR Results
 
-test3.pdf | 2 pages | 6.9s
+test3.pdf | 2 pages | 7.0s
 
-## Page 1 (3.7s)
+## Page 1 (3.8s)
 
 TRUNG TÂM DỮ LIỆU QUỐC GIA  
 PHÒNG 2  
@@ -44,7 +44,7 @@ Căn cứ lập dự toán:
 
 - Thông tư 18/2024/TT-BTTTT ngày 30/12/2024 của Bộ Thông tin và Truyền thông quy định lập và quản lý chi phí đầu tư ứng dụng công nghệ thông tin, thuê dịch vụ công nghệ thông tin sử dụng nguồn vốn ngân sách nhà nước;
 
-- Thông tư 02/2015/TT-BLĐTBTBXH ngày 12 tháng 01 năm 2015 của Bộ Lao động - Thương binh và Xã hội quy định mức lương đối với chuyên gia tư vấn trong nước làm cơ sở dự toán gói thảu cung cấp dịch vụ tư vấn áp dụng hình thức hợp đồng theo thời gian sử dụng vốn nhà nước.
+- Thông tư 02/2015/TT-BLĐTBXH ngày 12 tháng 01 năm 2015 của Bộ Lao động - Thương binh và Xã hội quy định mức lương đối với chuyên gia tư vấn trong nước làm cơ sở dự toán gói thầu cung cấp dịch vụ tư vấn áp dụng hình thức hợp đồng theo thời gian sử dụng vốn nhà nước.
 
 ### TỔNG HỢP CHI PHÍ CHUẨN BỊ ĐẦU TƯ
 
@@ -63,13 +63,13 @@ Căn cứ lập dự toán:
   </tr>
   <tr>
     <td>3</td>
-    <td>Chi phí thẩm tra Báo cáo kinh tế kỹ thuật</td>
+    <td>Chi phí tham tra Báo cáo kinh tế kỹ thuật</td>
     <td>6.480.000</td>
     <td></td>
   </tr>
   <tr>
     <td>4</td>
-    <td>Chi phí thẩm định giá</td>
+    <td>Chi phí tham định giá</td>
     <td>25.650.804</td>
     <td></td>
   </tr>
@@ -103,12 +103,12 @@ Căn cứ lập dự toán:
 
 <div style="text-align: center;">
   ![image](image_1.png)
-  <p>NGUYỄN BẢO QUÂN</p>
+  <p>Nguyễn Bảo Quản</p>
 </div>
 
 <div style="text-align: center;">
   ![image](image_2.png)
-  <p>THƯƠNG TÁ BÙI THỊ NGỌC ÁNH</p>
+  <p>Thượng tá Bùi Thị Ngọc Ánh</p>
 </div>
 
 </div>

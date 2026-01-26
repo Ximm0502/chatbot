@@ -17,7 +17,7 @@ MODEL = "lightonai/LightOnOCR-2-1B"
 PDF_FOLDER = "./pdfs"
 OUTPUT_FOLDER = "./output"  # Folder lưu kết quả
 
-PDF_FOLDER = "pdf_file"
+PDF_FOLDER = "lsvn"
 
 
 def process_pdf(pdf_path):

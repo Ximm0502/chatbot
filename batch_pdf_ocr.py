@@ -14,9 +14,11 @@ from pathlib import Path
 ENDPOINT = "http://localhost:8000/v1/chat/completions"
 MODEL = "lightonai/LightOnOCR-2-1B"
 
-# ⚙️ CONFIG - Thay đổi folder ở đây
 PDF_FOLDER = "./pdfs"
 OUTPUT_FOLDER = "./output"  # Folder lưu kết quả
+
+PDF_FOLDER = "pdf_file"
+
 
 def process_pdf(pdf_path):
     """Process single PDF file"""

@@ -16,6 +16,7 @@ MODEL = "lightonai/LightOnOCR-2-1B"
 
 # ⚙️ CONFIG - Thay đổi folder ở đây
 PDF_FOLDER = "./pdfs"
+OUTPUT_FOLDER = "./output"  # Folder lưu kết quả
 
 def process_pdf(pdf_path):
     """Process single PDF file"""
@@ -73,7 +74,9 @@ def process_pdf(pdf_path):
         pil_image.close()
     
     # Save results
-    output_file = pdf_path.replace(".pdf", "_output.md")
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+    output_filename = Path(pdf_path).stem + "_output.md"
+    output_file = os.path.join(OUTPUT_FOLDER, output_filename)
     output_content = f"# OCR Results: {Path(pdf_path).name}\n\n"
     
     for r in results:

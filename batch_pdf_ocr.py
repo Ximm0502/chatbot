@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-batch_pdf_ocr.py - Process multiple PDFs in a folder
-"""
-
 import base64
 import requests
 import pypdfium2 as pdfium
@@ -15,9 +10,7 @@ ENDPOINT = "http://localhost:8000/v1/chat/completions"
 MODEL = "lightonai/LightOnOCR-2-1B"
 
 PDF_FOLDER = "./pdfs"
-OUTPUT_FOLDER = "./output"  # Folder lưu kết quả
-
-PDF_FOLDER = "lsvn"
+OUTPUT_FOLDER = "./output"  
 
 
 def process_pdf(pdf_path):
@@ -89,21 +82,21 @@ def process_pdf(pdf_path):
         f.write(output_content)
     
     total_time = sum(r['time'] for r in results)
-    print(f"\n✅ Saved: {output_file}")
+    print(f"\nSaved: {output_file}")
     print(f"   Total: {total_time:.1f}s | Avg: {total_time/len(results):.1f}s/page")
     
     return len(results), total_time
 
 def main():
     if not os.path.exists(PDF_FOLDER):
-        print(f"❌ Folder not found: {PDF_FOLDER}")
+        print(f"Folder not found: {PDF_FOLDER}")
         return
     
     # Find all PDF files
     pdf_files = list(Path(PDF_FOLDER).glob("*.pdf"))
     
     if not pdf_files:
-        print(f"❌ No PDF files found in: {PDF_FOLDER}")
+        print(f"No PDF files found in: {PDF_FOLDER}")
         return
     
     print(f"Found {len(pdf_files)} PDF files")
@@ -117,7 +110,7 @@ def main():
         total_time += time_taken
     
     print(f"\n{'='*70}")
-    print("📊 BATCH SUMMARY")
+    print("BATCH SUMMARY")
     print(f"Files: {len(pdf_files)} | Pages: {total_pages} | Time: {total_time:.1f}s")
     print(f"Avg: {total_time/total_pages:.1f}s/page")
     print('='*70)
